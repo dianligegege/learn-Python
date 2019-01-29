@@ -1,0 +1,9 @@
+def list(x):
+    l = []
+    for n in x:
+        l.append(n)
+    print(l)
+
+list(map(lambda x:x*x,[1,2,3,4,5,6,7,8,9]))
+
+L = list(filter(lambda x:x%2==1,range(1,20)))
